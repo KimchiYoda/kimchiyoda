@@ -3,23 +3,27 @@ body {
     background-color: rgb(150, 180, 150);
     color: #FFFFFF;
    }
-   h1 {
+h1 {
     color: white;
     text-align: center;
     font-size: 30px;
     border: 2px solid white;
+    width: auto;
+    height: 80px;
+    background-color: thistle;
+    margin: auto;
    }
-   h2 {
+h2 {
     color: honeydew;
     text-align: center;
     font-size: 20px;
    }
-   iframe {
-       margin: 10%;
-       width: 560px;
-       height: 315px;
+iframe {
+    margin: 10%;
+    width: 560px;
+    height: 315px;
    }
-   p {
+p {
     background-color: white;
     font-size: 15px;
     color: green;
@@ -29,23 +33,21 @@ body {
     margin: 10%;
     padding: 3px;
    }
-   div {
-       width: 100px;
-       height: 100px;
+div {
+    width: 100px;
+    height: 100px;
+    display: block;
    }
-   ol {
+ol {
     counter-reset: item;
     list-style-type: lower-alpha;
     margin: 10%;
    }
-   ul {
+ul {
     counter-reset: item;
     list-style: square;
     margin: 10%;
    }
-   img {
+img {
     background-color: white;
-   }
-   figure {
-    
    }
